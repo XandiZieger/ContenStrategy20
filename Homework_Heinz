@@ -1,0 +1,164 @@
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.background {
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 400;
+	font-size: 16px; 
+	line-height: 1.5;
+	color: #222;
+}
+
+.content {
+	text-align: left;
+	width: 100%; 
+	margin-left: auto !important; 
+	margin-right: auto !important;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	padding: 15px 35px; 
+	background: #FFF; 
+	background-image: url(); 
+	background-size: 100%;
+	background-repeat: no-repeat; 
+	background-position: center top; 
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content h2 {
+	color: #000;
+	font-weight: 700;
+	text-align: center;
+	font-size: 35px;
+	line-height: 1.2;
+	margin: 30px 0px;
+	text-transform: uppercase;
+}
+
+.content h3 {
+	color: #;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+.content p {
+	margin: 0px;
+	margin-bottom: 16px;
+}
+
+.content strong {
+	font-weight: 700;
+}
+
+.content ul {
+	list-style: none;
+	list-style-image: url();
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+
+.content li {
+	margin-left: -1.5em;
+	text-align: left;
+	position: relative;
+}
+
+.content li::before {
+	color: #F6CE1D; 				/* Farbe hier einfÃžgen */ 
+	content: "\2022";
+	font-weight: 700;
+	width: 1em;
+	position: absolute;
+	top: 0px;
+	left: -15px;
+}
+
+.content img { 
+	max-width: 100%; 
+	height: auto;
+	margin-bottom: 0px;
+}
+
+.content .logo {
+	width: 300px;
+}
+
+.content a {
+	text-decoration: none; 
+	font-weight: normal; 
+	color: #F6CE1D; 
+}
+
+.content a:hover{
+	text-decoration: underline;
+}
+
+.content .ImgFullWidth {
+	margin: 0px -35px;
+	margin-bottom: 35px;
+}
+
+.Bttn_div {
+	text-align: center; 
+	padding-top: 22px;
+	margin-bottom: 20px;
+}
+
+.Bttn_div a {
+	background-color: #000; 
+	border: 1px solid #000;
+	color: #ffffff; 
+	padding: 10px 30px;
+	border-radius: 0px; 			
+	font-size: 16px; 
+	font-weight: 400; 
+	line-height: 1;			
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block; 			
+	transition: 0.3s;
+}
+
+.Bttn_div a:hover {
+	background-color: #FFF;
+	color: #000;
+	border: 1px solid #000;
+	text-decoration: none;
+}
+
+</style>
+<!-- Hintergrund "Body" -->
+<div class="background"><!-- Textcontainer -->
+	<div class="content">
+		<p style="text-align: center;"><img class="logo" alt="" title="" src="https://media.tirolerjobs.at/openings/0001/17/dd818ad8452df020cf8a42006e1baf17e347f22c.png"/></p>
+
+		<p class="ImgFullWidth"><img alt="" title="" src="https://media.tirolerjobs.at/openings/0001/11/4677b30c15d5d794e1d43ee4f4801b724168ff41.jpg"/></p>
+		<p>Wir suchen eine/n</p>
+
+		<h2>KFZ-Mechaniker (m/w) mit Erfahrung</h2>
+
+		<h3>Wir bieten:</h3>
+
+		<ul>
+			<li>Ein motiviertes Team aus Profis und solchen, die es werden wollen&nbsp;</li>
+			<li>Interne und externe Fort- und Weiterbildung</li>
+			<li>Respektvoller Umgang unter und mit allen Teammitgliedern&nbsp;</li>
+			<li>Die neueste Technik in einer hochmodernen Service-Werkstatt&nbsp;</li>
+			<li>Zahlreiche Benefits</li>
+		</ul>
+
+		<h3>Du lernst:</h3>
+
+		<p>Die Autowelt unserer Marken Volkswagen, Seat, Skoda und VW Nutzfahrzeuge.</p>
+
+				
+		<div class="Bttn_div"><a href="www.suedtirolerjobs.it/jobs/bewerbung/93?apply=14610#formAppTop" target="_blank" title="Jetzt bei  bewerben!"> <!--Bewerbungsbutton Text: -->Jetzt bewerben! </a></div>
+	</div>
+</div>
